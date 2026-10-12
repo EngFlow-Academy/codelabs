@@ -2,3 +2,8 @@ common --incompatible_strict_action_env
 common --nostamp
 build  --cxxopt='-std=c++17'
 build  --host_cxxopt='-std=c++17'
+
+common --action_env=BAZEL_DO_NOT_DETECT_CPP_TOOLCHAIN=1
+common --repo_env=BAZEL_DO_NOT_DETECT_CPP_TOOLCHAIN=1
+common --java_runtime_version=remotejdk_25
+common --tool_java_runtime_version=remotejdk_25
