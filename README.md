@@ -1,12 +1,11 @@
 # Bazel Codelab
 
 ## Before you get started
-Take a look at these [informational slides](https://docs.google.com/presentation/d/1CpgAwaPEjJI-q-29FhGBQk0M7iZDxbPAJYjI8s57KmA/edit#slide=id.p) to learn about Bazel.
+Take a look at these [informational slides](https://docs.google.com/presentation/d/1Ez8uJv3vdndbMDSNlVu_vK9IaNWP-UfCo2hq3PPM6g4/edit?usp=sharing) to learn about Bazel.
 
-## Codelab instructions
-1. Click on `Code` -> `Create codespace on main` to launch a new codespace.
-1. Wait for the codespace to finish setting up. This should be quick in regions with prebuilt codespaces. 
-1. Once you get a shell prompt in your codespace, run `./next_exercise.sh` to move to `exercise-000-intro`.
+## Start the codelab
+
+Run this script to go to the next stage of the codelab, then read `README.md`:
 
 ```bash
 ./next_exercise.sh
